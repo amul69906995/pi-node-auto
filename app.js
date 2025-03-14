@@ -1,73 +1,32 @@
-const { spawn } = require("child_process");
-const { execSync } = require("child_process");
+const { getOsType } = require('./detect_os/test');
+const { isConnectedToInternet } = require('./internet_health/test')
+const { isDockerInstalled } =require('./core/test')
 
-//close all pinode before starting new one
-// check if pinetwork is running `tasklist /FI "IMAGENAME eq Pi Network.exe"`
-//if running close all taskkill /IM "Pi Network.exe" /F and start a pi network
-// try {
-//     const piNetworkRunning = execSync('tasklist /FI "IMAGENAME eq Pi Network.exe"').toString();
-//     console.log("what pi network is running",piNetworkRunning);
-// if (piNetworkRunning) {
-//     console.log("Pi Network is running, closing all instances");
-//     execSync('taskkill /IM "Pi Network.exe" /F')
-// }else{
-//     console.log('✅ Pi Network is not running');
-// }
-// } catch (error) {
-//     console.log("❌ Error checking or stopping Pi Network:", error.message);
-// }
+    //first check for os detect_os if Windows_NT proceed else show
+    //check for internet if availabel proceed if not available show them to connect to internet
 
-// // Start Pi Network in detached mode
-// const piNode = spawn("C:\\Users\\amul7\\AppData\\Local\\Programs\\pi-network-desktop\\Pi Network.exe", [], {
-//     detached: true,
-//     stdio: "ignore"
-// });
-
-// piNode.unref(); // Ensures process stays alive even if Node.js exits
-// console.log("✅ Pi Network started successfully!");
-
-// check if container is running docker ps -q --filter "name=testnet2"  if not restart constiner docker start testnet2
-const dockerCheckRun = () => {
-    
-    const testnet2RunningId = execSync('docker ps -q --filter "name=testnet2"').toString();
-    if (testnet2RunningId) {
-        console.log(`✅ Docker container is running container id ${testnet2RunningId} restarting....`);
-        //restart container
-        execSync('docker restart testnet2')
-    } else {
-        execSync('docker restart testnet2')
+    let globalValToShowFinally = {
+        err: null,
+        age: null,
+        status: null,
     }
+const main = async () => {
+    const osType = getOsType();
+    console.log("os_type:",osType)
+    if (osType !== "Windows_NT") {
+        globalValToShowFinally.err = "Sorry, this app is only available for Windows";
+    }
+
+    const isInternet = await isConnectedToInternet();
+    if (!isInternet) {
+        globalValToShowFinally.err = "u are not connected to internet u have to manually connect it later we may come with auto reconnection"
+    }
+    //check if docker is installed if not set error manually install later we may come up with auto download
+    const isDockerAvailable=isDockerInstalled();
+   if(!isDockerAvailable){
+    globalValToShowFinally.err="docker is not installed please install it manually later we may come up auto installing of docker";
+   } else{
+        //check if latest image of pi network node is there or not
+   } 
 }
-dockerCheckRun();
-
-// Function to fetch and log Pi Node metrics
-const fetchPiNodeMetrics = () => {
-    try {
-        const info = execSync('docker exec testnet2 curl -s http://127.0.0.1:11626/info').toString();
-        const jsonData = JSON.parse(info);
-
-        console.log("\n📊 **Pi Node Metrics**:");
-        console.log(`🔹 State: ${jsonData.info.state}`);
-        console.log(`📦 Latest Block: ${jsonData.info.ledger.num}`);
-        console.log(`⏳ Sync Age: ${jsonData.info.ledger.age} seconds ago`);
-        console.log(`🔗 Outgoing Connections: ${jsonData.info.peers.authenticated_count}`);
-        console.log(`🔗 pending Connections: ${jsonData.info.peers.pending_count}`);
-        console.log("\n✅ Monitoring complete!\n");
-    } catch (error) {
-        console.log("❌ Error fetching Pi Node metrics:", error.message);
-    }
-};
-setInterval(fetchPiNodeMetrics, 20000);
-
-
-// // Run all tasks sequentially
-// const main = () => {
-//     preventSleep();  // Prevent system from sleeping when lid is closed
-//     stopPiNetwork();
-//     startPiNetwork();
-//     restartDockerContainer();
-//     setTimeout(fetchPiNodeMetrics, 20000); // Delay to ensure container is running before fetching data
-// };
-
-// // Run the script
-// main();
+main();
