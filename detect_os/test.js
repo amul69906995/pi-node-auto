@@ -5,11 +5,9 @@ const os = require("os");
 //based on this it will run core module of windows max or linux
 function getOsType() {
     return os.type(); 
-    // Returns the OS type (e.g., 'Windows_NT', 'Linux', 'Darwin')
 }
 
-console.log('Operating System:',getOsType(),getUptime());
-
+//console.log(getOsType())//"Windows_NT" for windows
 //this will be used to monitor and may be used to restart the pc after giving 1hr -30 mins rest
 function getUptime() {
     const uptimeInSeconds = os.uptime(); // Get uptime in seconds
