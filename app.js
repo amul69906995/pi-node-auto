@@ -1,32 +1,29 @@
 const { getOsType } = require('./detect_os/test');
 const { isConnectedToInternet } = require('./internet_health/test')
-const { isDockerInstalled } =require('./core/test')
+const { isDockerInstalled } =require('./core/test');
+const { execSync } = require("child_process");
 
+require('dotenv').config()
     //first check for os detect_os if Windows_NT proceed else show
     //check for internet if availabel proceed if not available show them to connect to internet
 
-    let globalValToShowFinally = {
-        err: null,
-        age: null,
-        status: null,
-    }
+   
 const main = async () => {
     const osType = getOsType();
     console.log("os_type:",osType)
     if (osType !== "Windows_NT") {
-        globalValToShowFinally.err = "Sorry, this app is only available for Windows";
+        throw new Error("Sorry, this app is only available for Windows");
     }
 
     const isInternet = await isConnectedToInternet();
     if (!isInternet) {
-        globalValToShowFinally.err = "u are not connected to internet u have to manually connect it later we may come with auto reconnection"
+        throw new Error("You are not connected to internet. You have to manually connect it. Later we may come with auto reconnection")
     }
     //check if docker is installed if not set error manually install later we may come up with auto download
     const isDockerAvailable=isDockerInstalled();
    if(!isDockerAvailable){
-    globalValToShowFinally.err="docker is not installed please install it manually later we may come up auto installing of docker";
-   } else{
-        //check if latest image of pi network node is there or not
+    throw new Error("Docker is not installed. Please install it manually. Later we may come up with auto installing of Docker");
    } 
+   //we have to check if image exist or not if yes run the container if not download image and run the container
 }
 main();
