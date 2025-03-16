@@ -1,61 +1,47 @@
 const { execSync } = require("child_process");
-//close all pinode before starting new one
-// check if pinetwork is running `tasklist /FI "IMAGENAME eq Pi Network.exe"`
-//if running close all taskkill /IM "Pi Network.exe" /F and start a pi network
-// try {
-//     const piNetworkRunning = execSync('tasklist /FI "IMAGENAME eq Pi Network.exe"').toString();
-//     console.log("what pi network is running",piNetworkRunning);
-// if (piNetworkRunning) {
-//     console.log("Pi Network is running, closing all instances");
-//     execSync('taskkill /IM "Pi Network.exe" /F')
-// }else{
-//     console.log('✅ Pi Network is not running');
+
+
+// // check if container is running docker ps -q --filter "name=testnet2"  if not restart constiner docker start testnet2
+// const dockerCheckRun = () => {    
+//     const testnet2RunningId = execSync('docker ps -q --filter "name=testnet2"').toString();
+//     if (testnet2RunningId) {
+//         console.log(`✅ Docker container is running container id ${testnet2RunningId} restarting....`);
+//         //restart container
+//         execSync('docker restart testnet2')
+//     } else {
+//         execSync('docker restart testnet2')
+//     }
 // }
-// } catch (error) {
-//     console.log("❌ Error checking or stopping Pi Network:", error.message);
-// }
-
-// // Start Pi Network in detached mode
-// const piNode = spawn("C:\\Users\\amul7\\AppData\\Local\\Programs\\pi-network-desktop\\Pi Network.exe", [], {
-//     detached: true,
-//     stdio: "ignore"
-// });
-
-// piNode.unref(); // Ensures process stays alive even if Node.js exits
-// console.log("✅ Pi Network started successfully!");
-
-
-// check if container is running docker ps -q --filter "name=testnet2"  if not restart constiner docker start testnet2
-const dockerCheckRun = () => {    
-    const testnet2RunningId = execSync('docker ps -q --filter "name=testnet2"').toString();
-    if (testnet2RunningId) {
-        console.log(`✅ Docker container is running container id ${testnet2RunningId} restarting....`);
-        //restart container
-        execSync('docker restart testnet2')
-    } else {
-        execSync('docker restart testnet2')
-    }
-}
-dockerCheckRun()
-
+//dockerCheckRun();
+ 
 // Function to fetch and log Pi Node metrics
 const fetchPiNodeMetrics = () => {
     try {
+        //console.log("inside fetchnodeMatrix")
         const info = execSync('docker exec testnet2 curl -s http://127.0.0.1:11626/info').toString();
         const jsonData = JSON.parse(info);
+        const now = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
+        // console.log(now,"sync")
+    //    if(jsonData.info.ledger.age>60){
+        console.log("\n📊 **Pi Node Metrics indicating failure**:");
 
-        console.log("\n📊 **Pi Node Metrics**:");
+         console.log(`\n📊 **Pi Node Metrics** (Logged at: ${now} IST)`);
+        console.log(`🔹 status: ${jsonData.info.status}`);
+
         console.log(`🔹 State: ${jsonData.info.state}`);
         console.log(`📦 Latest Block: ${jsonData.info.ledger.num}`);
         console.log(`⏳ Sync Age: ${jsonData.info.ledger.age} seconds ago`);
         console.log(`🔗 Incoming Connections: ${jsonData.info.peers.authenticated_count}`);
         console.log(`🔗 pending Connections: ${jsonData.info.peers.pending_count}`);
         console.log("\n✅ Monitoring complete!\n");
+       //}
     } catch (error) {
         console.log("❌ Error fetching Pi Node metrics:", error.message);
     }
 };
-setInterval(fetchPiNodeMetrics,20000);
+
+//setInterval(fetchPiNodeMetrics,20000);
+//related to docker installation
 const isDockerInstalled = () => {
     try {
         execSync('docker --version', { stdio: 'ignore' }); // Ignore output, only check success/fail
@@ -66,20 +52,72 @@ const isDockerInstalled = () => {
         return false;
     }
 };
-// setInterval(fetchPiNodeMetrics, 20000);
+const isDockerImageExist=(image)=>{
+   try {
+    const result=execSync(`docker images -q ${image}`).toString().trim();
+    if(result)return true;
+    else return false;
+   } catch (error) {
+    console.log("error in isDockerImageExist",error)
+    throw new Error(error)
+   }
+}
+const isContainerExist=(image)=>{
+ try {
+    const result = execSync(`docker ps -a --filter "ancestor=${image}" --format "{{.ID}}"`).toString().trim();
+    if(result)return true;
+    else return false;
+ } catch (error) {
+    console.log("error in isDockerImageExist",error)
+    throw new Error(error)
+ }
+}
+const downloadImageMakeContainer=(image,containerName="testnet2")=>{
+    const isImage=isDockerImageExist(image);
+    if (!isImage) {
+        console.log("📦 Downloading Docker image...");
+        execSync(`docker pull ${image}`, { stdio: "inherit" }); // Pull the image
+        isImage = true; // Update the flag
+     }
+  
+     const isContainer = isContainerExist(image);
+  
+     if (!isContainer) {
+        console.log(`🚀 Creating a Docker container (${containerName})...`);
+        execSync(`docker run -d --name ${containerName} ${image}`, { stdio: "inherit" });
+        console.log("✅ Container created successfully.");
+     } else {
+        console.log("✅ Docker image and container already exist.");
+     }
+}
+// start docker container testnet2
+const isDockerRunning=()=>{
+    try {
+        execSync('docker ps', { encoding: 'utf8' });
+        return true
+      } catch (error) {
+        return false;
+      }        
+}
+const isContainerRunning=()=>{
+    try {
+        const result = execSync(`docker ps -q --filter "name=testnet2"`).toString().trim();
+        if(result)return true;
+    }
+    catch(error){
+        return false;
+    }   
+}
+//we will check if docker is running or not if not we will start using start command
+//we need to wait until docker is started and ready to run container
+//this will run 
+const startDocker=()=>{
+    console.log("starting docker...")
+    try{
+        execSync(`start " " "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe"`)
+    }catch(error){
+        console.log("error in starting docker",error)
+    }
 
-
-// // Run all tasks sequentially
-// const main = () => {
-//     preventSleep();  // Prevent system from sleeping when lid is closed
-//     stopPiNetwork();
-//     startPiNetwork();
-//     restartDockerContainer();
-//     setTimeout(fetchPiNodeMetrics, 20000); // Delay to ensure container is running before fetching data
-// };
-
-// // Run the script
-// main();
-
-
-module.exports={dockerCheckRun,fetchPiNodeMetrics,isDockerInstalled}
+}
+module.exports={isContainerRunning,fetchPiNodeMetrics,isDockerRunning,isDockerInstalled,downloadImageMakeContainer,startDocker}

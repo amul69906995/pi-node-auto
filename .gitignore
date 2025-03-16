@@ -1,3 +1,4 @@
 node_modules
 downloader_decrypt.js
 github_pr_automation.js
+.env
