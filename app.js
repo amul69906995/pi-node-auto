@@ -2,6 +2,7 @@ const { getOsType } = require('./detect_os/test');
 const { isConnectedToInternet } = require('./internet_health/test')
 const { isDockerInstalled,isContainerRunning,fetchPiNodeMetrics,downloadImageMakeContainer, isDockerRunning,startDocker} =require('./core/test');
 const { execSync } = require("child_process");
+const { disableSleepModeAndLidClosingAction } = require('./background_run/test');
 
 require('dotenv').config()
     //first check for os detect_os if Windows_NT proceed else show
@@ -55,6 +56,7 @@ const osType = getOsType();
   if (osType !== "Windows_NT") {
       throw new Error("Sorry, this app is only available for Windows");
   }else{
+    disableSleepModeAndLidClosingAction();
     script();
   }
 
