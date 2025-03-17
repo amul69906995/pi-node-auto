@@ -22,7 +22,7 @@ const fetchPiNodeMetrics = () => {
         const jsonData = JSON.parse(info);
         const now = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
         // console.log(now,"sync")
-        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count){
+        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count==0){
             console.log("🚨 Pi Node is not syncing try changing network restarting docker...")
                 // restart docker container
                 execSync('docker restart testnet2')
@@ -34,7 +34,7 @@ const fetchPiNodeMetrics = () => {
         console.log(`🔹 status: ${jsonData.info.status}`);
         console.log(`local blcok:${jsonData.info.quorum.qset.ledger}`)
         console.log(`🔹 State: ${jsonData.info.state}`);
-        console.log(`📦 Latest Block: ${jsonData.info.ledger.num}`);
+        console.log(`📦 Local Block: ${jsonData.info.ledger.num}`);
         console.log(`⏳ Sync Age: ${jsonData.info.ledger.age} seconds ago`);
         console.log(`🔗 Incoming Connections: ${jsonData.info.peers.authenticated_count}`);
         console.log(`🔗 pending Connections: ${jsonData.info.peers.pending_count}`);

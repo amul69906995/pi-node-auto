@@ -45,10 +45,12 @@ const main =  () => {
 }
 const script=async()=>{
   const isInternet = await isConnectedToInternet();
+  const isMainRunning=false;
   if (!isInternet) {
       console.log("You are not connected to internet. You have to manually connect it. Later we may come with auto reconnection,aborting...")
   }
   else{
+    isMainRunning=true;
     main();
   }
 }
