@@ -22,19 +22,24 @@ const fetchPiNodeMetrics = () => {
         const jsonData = JSON.parse(info);
         const now = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
         // console.log(now,"sync")
-    //    if(jsonData.info.ledger.age>60){
+        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count){
+            console.log("🚨 Pi Node is not syncing try changing network restarting docker...")
+                // restart docker container
+                execSync('docker restart testnet2')
+        }
+     if(jsonData.info.ledger.age>60){
         console.log("\n📊 **Pi Node Metrics indicating failure**:");
 
          console.log(`\n📊 **Pi Node Metrics** (Logged at: ${now} IST)`);
         console.log(`🔹 status: ${jsonData.info.status}`);
-
+        console.log(`local blcok:${jsonData.info.quorum.qset.ledger}`)
         console.log(`🔹 State: ${jsonData.info.state}`);
         console.log(`📦 Latest Block: ${jsonData.info.ledger.num}`);
         console.log(`⏳ Sync Age: ${jsonData.info.ledger.age} seconds ago`);
         console.log(`🔗 Incoming Connections: ${jsonData.info.peers.authenticated_count}`);
         console.log(`🔗 pending Connections: ${jsonData.info.peers.pending_count}`);
         console.log("\n✅ Monitoring complete!\n");
-       //}
+       }
     } catch (error) {
         console.log("❌ Error fetching Pi Node metrics:", error.message);
     }
@@ -114,6 +119,7 @@ const isContainerRunning=()=>{
 const startDocker=()=>{
     console.log("starting docker...")
     try{
+        //killing all docker instances
         execSync(`start " " "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe"`)
     }catch(error){
         console.log("error in starting docker",error)

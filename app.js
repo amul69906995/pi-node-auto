@@ -28,6 +28,7 @@ const main =  () => {
    //if not exist download image make container and run it 
   //now we have to download image and container testnet2 if not available
   if(isDockerRunning()){
+    //killAndReStart()
     downloadImageMakeContainer(process.env.LATEST_DOCKER_IMAGE,"testnet2");
   }
   if(isDockerRunning()){
