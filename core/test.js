@@ -1,6 +1,6 @@
 const { execSync } = require("child_process");
-
-
+const {log_to_pi_logs}=require('../logs/pi_logs')
+const {getCurrentNetwork,getBatteryPercentage}=require('../system_resource_use/test')
 // // check if container is running docker ps -q --filter "name=testnet2"  if not restart constiner docker start testnet2
 // const dockerCheckRun = () => {    
 //     const testnet2RunningId = execSync('docker ps -q --filter "name=testnet2"').toString();
@@ -15,15 +15,27 @@ const { execSync } = require("child_process");
 //dockerCheckRun();
  
 // Function to fetch and log Pi Node metrics
-const fetchPiNodeMetrics = () => {
+const fetchPiNodeMetrics = async() => {
     try {
         //console.log("inside fetchnodeMatrix")
         const info = execSync('docker exec testnet2 curl -s http://127.0.0.1:11626/info').toString();
         const jsonData = JSON.parse(info);
         const now = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
-        // console.log(now,"sync")
-        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count==0){
-            console.log("🚨 Pi Node is not syncing try changing network restarting docker...")
+         //console.log(now,jsonData.info.state)
+         const logData = {
+            timestamp: new Date().toISOString(),
+            network: getCurrentNetwork(),
+            battery: getBatteryPercentage(),
+            state: jsonData.info.state,
+            status: jsonData.info.status,
+            authenticatedConnections: jsonData.info.peers.authenticated_count,
+            pendingConnections: jsonData.info.peers.pending_count,
+        };
+        
+        await log_to_pi_logs(logData);
+        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count==0&&!jsonData.info.status){
+           // console.log("🚨 Pi Node is not syncing try changing network restarting docker...")
+           await log_to_pi_logs({"date":now,"message":"🚨 Pi Node is not syncing try changing network restarting docker..."})
                 // restart docker container
                 execSync('docker restart testnet2')
         }
@@ -32,7 +44,7 @@ const fetchPiNodeMetrics = () => {
 
          console.log(`\n📊 **Pi Node Metrics** (Logged at: ${now} IST)`);
         console.log(`🔹 status: ${jsonData.info.status}`);
-        console.log(`local blcok:${jsonData.info.quorum.qset.ledger}`)
+        console.log(`latest block:${jsonData.info.quorum.qset.ledger}`)
         console.log(`🔹 State: ${jsonData.info.state}`);
         console.log(`📦 Local Block: ${jsonData.info.ledger.num}`);
         console.log(`⏳ Sync Age: ${jsonData.info.ledger.age} seconds ago`);

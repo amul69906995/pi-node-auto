@@ -1,0 +1,7 @@
+2025-03-18T05:46:52.952Z - {"timestamp":"2025-03-18T05:46:52.598Z","network":"IIT(BHU)","battery":"23","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T05:47:44.077Z - {"timestamp":"2025-03-18T05:47:43.604Z","network":"NARZO 70x 5G","battery":"25","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T05:48:11.648Z - {"timestamp":"2025-03-18T05:48:11.183Z","network":"NARZO 70x 5G","battery":"26","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T05:48:11.651Z - {"date":"18/3/2025, 11:18:11 am","message":"🚨 Pi Node is not syncing try changing network restarting docker..."}
+2025-03-18T05:48:43.864Z - {"timestamp":"2025-03-18T05:48:43.383Z","network":"NARZO 70x 5G","battery":"27","state":"Connected","authenticatedConnections":7,"pendingConnections":44}
+2025-03-18T05:49:25.494Z - {"timestamp":"2025-03-18T05:49:24.999Z","network":"NARZO 70x 5G","battery":"29","state":"Catching up","status":["Waiting for trigger ledger: 2645868/2645889, ETA: 105s"],"authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T05:52:46.331Z - {"timestamp":"2025-03-18T05:52:45.827Z","network":"NARZO 70x 5G","battery":"35","state":"Synced!","authenticatedConnections":8,"pendingConnections":37}

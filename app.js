@@ -39,13 +39,13 @@ const main =  () => {
     }
     console.log("testnet2 is already running fetching metrices...")
     fetchPiNodeMetrics();
-    setInterval(fetchPiNodeMetrics,20000)
+    setInterval(fetchPiNodeMetrics,200000)
   }
 //now we hae to make sure that is docker container is running  
 }
 const script=async()=>{
   const isInternet = await isConnectedToInternet();
-  const isMainRunning=false;
+  let isMainRunning=false;
   if (!isInternet) {
       console.log("You are not connected to internet. You have to manually connect it. Later we may come with auto reconnection,aborting...")
   }
