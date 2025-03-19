@@ -33,7 +33,7 @@ const fetchPiNodeMetrics = async() => {
         };
         
         await log_to_pi_logs(logData);
-        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count==0&&!jsonData.info.status){
+        if(jsonData.info.ledger.age>90&&jsonData.info.peers.authenticated_count==0&&jsonData.info.peers.pending_count==0){
            // console.log("🚨 Pi Node is not syncing try changing network restarting docker...")
            await log_to_pi_logs({"date":now,"message":"🚨 Pi Node is not syncing try changing network restarting docker..."})
                 // restart docker container
@@ -90,7 +90,7 @@ const isContainerExist=(image)=>{
  }
 }
 const downloadImageMakeContainer=(image,containerName="testnet2")=>{
-    const isImage=isDockerImageExist(image);
+    let isImage=isDockerImageExist(image);
     if (!isImage) {
         console.log("📦 Downloading Docker image...");
         execSync(`docker pull ${image}`, { stdio: "inherit" }); // Pull the image

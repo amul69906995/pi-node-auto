@@ -5,3 +5,327 @@
 2025-03-18T05:48:43.864Z - {"timestamp":"2025-03-18T05:48:43.383Z","network":"NARZO 70x 5G","battery":"27","state":"Connected","authenticatedConnections":7,"pendingConnections":44}
 2025-03-18T05:49:25.494Z - {"timestamp":"2025-03-18T05:49:24.999Z","network":"NARZO 70x 5G","battery":"29","state":"Catching up","status":["Waiting for trigger ledger: 2645868/2645889, ETA: 105s"],"authenticatedConnections":8,"pendingConnections":54}
 2025-03-18T05:52:46.331Z - {"timestamp":"2025-03-18T05:52:45.827Z","network":"NARZO 70x 5G","battery":"35","state":"Synced!","authenticatedConnections":8,"pendingConnections":37}
+2025-03-18T05:56:06.297Z - {"timestamp":"2025-03-18T05:56:05.830Z","network":"NARZO 70x 5G","battery":"42","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T05:59:26.283Z - {"timestamp":"2025-03-18T05:59:25.833Z","network":"NARZO 70x 5G","battery":"47","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T06:01:13.073Z - {"timestamp":"2025-03-18T06:01:12.583Z","network":"NARZO 70x 5G","battery":"50","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T06:34:00.016Z - {"timestamp":"2025-03-18T06:33:59.442Z","network":"IIT(BHU)","battery":"80","state":"Synced!","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T06:37:20.819Z - {"timestamp":"2025-03-18T06:37:20.350Z","network":"IIT(BHU)","battery":"78","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T06:40:40.903Z - {"timestamp":"2025-03-18T06:40:40.371Z","network":"IIT(BHU)","battery":"80","state":"Synced!","authenticatedConnections":8,"pendingConnections":15}
+2025-03-18T06:44:00.870Z - {"timestamp":"2025-03-18T06:44:00.369Z","network":"IIT(BHU)","battery":"83","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T06:47:20.888Z - {"timestamp":"2025-03-18T06:47:20.388Z","network":"IIT(BHU)","battery":"82","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T06:50:40.978Z - {"timestamp":"2025-03-18T06:50:40.386Z","network":"IIT(BHU)","battery":"79","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T06:54:00.915Z - {"timestamp":"2025-03-18T06:54:00.404Z","network":"IIT(BHU)","battery":"76","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T06:57:20.917Z - {"timestamp":"2025-03-18T06:57:20.438Z","network":"IIT(BHU)","battery":"73","state":"Synced!","authenticatedConnections":8,"pendingConnections":46}
+2025-03-18T07:00:40.992Z - {"timestamp":"2025-03-18T07:00:40.425Z","network":"IIT(BHU)","battery":"70","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T07:04:00.975Z - {"timestamp":"2025-03-18T07:04:00.438Z","network":"IIT(BHU)","battery":"67","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T07:07:20.993Z - {"timestamp":"2025-03-18T07:07:20.450Z","network":"IIT(BHU)","battery":"64","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T07:10:41.015Z - {"timestamp":"2025-03-18T07:10:40.433Z","network":"IIT(BHU)","battery":"63","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T07:14:00.903Z - {"timestamp":"2025-03-18T07:14:00.425Z","network":"IIT(BHU)","battery":"60","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T07:17:20.917Z - {"timestamp":"2025-03-18T07:17:20.439Z","network":"IIT(BHU)","battery":"58","state":"Synced!","authenticatedConnections":8,"pendingConnections":33}
+2025-03-18T07:20:41.026Z - {"timestamp":"2025-03-18T07:20:40.482Z","network":"IIT(BHU)","battery":"56","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T07:24:01.031Z - {"timestamp":"2025-03-18T07:24:00.459Z","network":"IIT(BHU)","battery":"55","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T07:27:21.068Z - {"timestamp":"2025-03-18T07:27:20.501Z","network":"IIT(BHU)","battery":"53","state":"Synced!","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T07:30:41.075Z - {"timestamp":"2025-03-18T07:30:40.489Z","network":"IIT(BHU)","battery":"52","state":"Synced!","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T07:34:01.054Z - {"timestamp":"2025-03-18T07:34:00.503Z","network":"IIT(BHU)","battery":"50","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T07:37:21.132Z - {"timestamp":"2025-03-18T07:37:20.593Z","network":"IIT(BHU)","battery":"49","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T07:40:40.989Z - {"timestamp":"2025-03-18T07:40:40.486Z","network":"IIT(BHU)","battery":"47","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T07:44:01.084Z - {"timestamp":"2025-03-18T07:44:00.530Z","network":"IIT(BHU)","battery":"46","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T07:47:21.144Z - {"timestamp":"2025-03-18T07:47:20.572Z","network":"IIT(BHU)","battery":"45","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T07:50:41.035Z - {"timestamp":"2025-03-18T07:50:40.543Z","network":"IIT(BHU)","battery":"43","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T07:54:01.144Z - {"timestamp":"2025-03-18T07:54:00.553Z","network":"IIT(BHU)","battery":"42","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T07:57:21.138Z - {"timestamp":"2025-03-18T07:57:20.570Z","network":"IIT(BHU)","battery":"40","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T08:00:41.050Z - {"timestamp":"2025-03-18T08:00:40.555Z","network":"IIT(BHU)","battery":"39","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T08:04:01.148Z - {"timestamp":"2025-03-18T08:04:00.587Z","network":"IIT(BHU)","battery":"37","state":"Synced!","authenticatedConnections":8,"pendingConnections":22}
+2025-03-18T08:07:21.030Z - {"timestamp":"2025-03-18T08:07:20.543Z","network":"IIT(BHU)","battery":"35","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T08:10:41.030Z - {"timestamp":"2025-03-18T08:10:40.542Z","network":"IIT(BHU)","battery":"34","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T08:14:01.150Z - {"timestamp":"2025-03-18T08:14:00.590Z","network":"IIT(BHU)","battery":"32","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T08:17:21.199Z - {"timestamp":"2025-03-18T08:17:20.631Z","network":"IIT(BHU)","battery":"31","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T08:20:41.287Z - {"timestamp":"2025-03-18T08:20:40.687Z","network":"IIT(BHU)","battery":"29","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T08:24:01.142Z - {"timestamp":"2025-03-18T08:24:00.616Z","network":"IIT(BHU)","battery":"28","state":"Synced!","authenticatedConnections":8,"pendingConnections":24}
+2025-03-18T08:27:21.181Z - {"timestamp":"2025-03-18T08:27:20.628Z","network":"IIT(BHU)","battery":"26","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T08:30:41.405Z - {"timestamp":"2025-03-18T08:30:40.804Z","network":"IIT(BHU)","battery":"24","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T08:34:01.371Z - {"timestamp":"2025-03-18T08:34:00.840Z","network":"IIT(BHU)","battery":"23","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T08:37:21.223Z - {"timestamp":"2025-03-18T08:37:20.697Z","network":"IIT(BHU)","battery":"21","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T08:40:41.272Z - {"timestamp":"2025-03-18T08:40:40.701Z","network":"IIT(BHU)","battery":"20","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T08:44:01.192Z - {"timestamp":"2025-03-18T08:44:00.682Z","network":"IIT(BHU)","battery":"18","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T08:47:21.254Z - {"timestamp":"2025-03-18T08:47:20.690Z","network":"IIT(BHU)","battery":"17","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T08:50:41.262Z - {"timestamp":"2025-03-18T08:50:40.693Z","network":"IIT(BHU)","battery":"15","state":"Synced!","authenticatedConnections":8,"pendingConnections":49}
+2025-03-18T08:54:01.236Z - {"timestamp":"2025-03-18T08:54:00.681Z","network":"IIT(BHU)","battery":"14","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T08:57:21.262Z - {"timestamp":"2025-03-18T08:57:20.714Z","network":"IIT(BHU)","battery":"12","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":48}
+2025-03-18T09:00:41.276Z - {"timestamp":"2025-03-18T09:00:40.727Z","network":"IIT(BHU)","battery":"10","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T09:04:01.265Z - {"timestamp":"2025-03-18T09:04:00.740Z","network":"IIT(BHU)","battery":"9","state":"Synced!","authenticatedConnections":8,"pendingConnections":51}
+2025-03-18T09:07:21.276Z - {"timestamp":"2025-03-18T09:07:20.723Z","network":"IIT(BHU)","battery":"7","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T09:10:41.345Z - {"timestamp":"2025-03-18T09:10:40.796Z","network":"IIT(BHU)","battery":"6","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T09:14:01.307Z - {"timestamp":"2025-03-18T09:14:00.742Z","network":"IIT(BHU)","battery":"5","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T09:17:21.346Z - {"timestamp":"2025-03-18T09:17:20.783Z","network":"IIT(BHU)","battery":"5","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T09:20:41.413Z - {"timestamp":"2025-03-18T09:20:40.860Z","network":"IIT(BHU)","battery":"4","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T09:24:01.250Z - {"timestamp":"2025-03-18T09:24:00.778Z","network":"IIT(BHU)","battery":"3","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T09:55:05.772Z - {"timestamp":"2025-03-18T09:55:04.687Z","network":"IIT(BHU)","battery":"3","state":"Synced!","authenticatedConnections":7,"pendingConnections":54}
+2025-03-18T09:58:24.169Z - {"timestamp":"2025-03-18T09:58:23.704Z","network":"IIT(BHU)","battery":"10","state":"Catching up","status":["Catching up to ledger 2648575: Downloading state file history/00/28/69/history-002869ff.json for ledger 2648575"],"authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T10:01:44.178Z - {"timestamp":"2025-03-18T10:01:43.706Z","network":"NARZO 70x 5G","battery":"18","state":"Synced!","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T10:05:04.059Z - {"timestamp":"2025-03-18T10:05:03.713Z","network":"IIT(BHU)","battery":"25","state":"Synced!","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T10:08:24.159Z - {"timestamp":"2025-03-18T10:08:23.716Z","network":"IIT(BHU)","battery":"32","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T10:11:44.203Z - {"timestamp":"2025-03-18T10:11:43.754Z","network":"IIT(BHU)","battery":"38","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T10:15:04.242Z - {"timestamp":"2025-03-18T10:15:03.735Z","network":"IIT(BHU)","battery":"44","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T10:18:24.195Z - {"timestamp":"2025-03-18T10:18:23.747Z","network":"IIT(BHU)","battery":"50","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T10:21:44.213Z - {"timestamp":"2025-03-18T10:21:43.753Z","network":"IIT(BHU)","battery":"55","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T10:25:04.296Z - {"timestamp":"2025-03-18T10:25:03.767Z","network":"IIT(BHU)","battery":"60","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T10:28:24.215Z - {"timestamp":"2025-03-18T10:28:23.768Z","network":"IIT(BHU)","battery":"64","state":"Synced!","authenticatedConnections":8,"pendingConnections":37}
+2025-03-18T10:31:44.252Z - {"timestamp":"2025-03-18T10:31:43.797Z","network":"IIT(BHU)","battery":"68","state":"Synced!","authenticatedConnections":8,"pendingConnections":20}
+2025-03-18T10:35:04.299Z - {"timestamp":"2025-03-18T10:35:03.825Z","network":"IIT(BHU)","battery":"72","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":48}
+2025-03-18T10:38:24.780Z - {"timestamp":"2025-03-18T10:38:24.232Z","network":"IIT(BHU)","battery":"74","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T10:41:44.489Z - {"timestamp":"2025-03-18T10:41:43.895Z","network":"IIT(BHU)","battery":"71","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T10:45:04.391Z - {"timestamp":"2025-03-18T10:45:03.890Z","network":"IIT(BHU)","battery":"68","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T10:48:24.506Z - {"timestamp":"2025-03-18T10:48:23.932Z","network":"IIT(BHU)","battery":"65","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T10:51:44.461Z - {"timestamp":"2025-03-18T10:51:43.899Z","network":"IIT(BHU)","battery":"62","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T10:55:04.485Z - {"timestamp":"2025-03-18T10:55:03.931Z","network":"IIT(BHU)","battery":"59","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T10:58:24.558Z - {"timestamp":"2025-03-18T10:58:23.938Z","network":"IIT(BHU)","battery":"57","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T11:01:44.539Z - {"timestamp":"2025-03-18T11:01:43.952Z","network":"IIT(BHU)","battery":"56","state":"Synced!","authenticatedConnections":8,"pendingConnections":49}
+2025-03-18T11:05:04.488Z - {"timestamp":"2025-03-18T11:05:03.987Z","network":"IIT(BHU)","battery":"53","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T11:08:24.389Z - {"timestamp":"2025-03-18T11:08:23.912Z","network":"IIT(BHU)","battery":"51","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T11:11:44.529Z - {"timestamp":"2025-03-18T11:11:43.975Z","network":"IIT(BHU)","battery":"48","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T11:15:04.481Z - {"timestamp":"2025-03-18T11:15:03.967Z","network":"IIT(BHU)","battery":"45","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T11:18:24.467Z - {"timestamp":"2025-03-18T11:18:23.960Z","network":"IIT(BHU)","battery":"42","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T11:21:44.453Z - {"timestamp":"2025-03-18T11:21:43.974Z","network":"IIT(BHU)","battery":"39","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T11:25:04.511Z - {"timestamp":"2025-03-18T11:25:03.979Z","network":"IIT(BHU)","battery":"36","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T11:28:24.544Z - {"timestamp":"2025-03-18T11:28:24.025Z","network":"IIT(BHU)","battery":"33","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T11:31:44.573Z - {"timestamp":"2025-03-18T11:31:44.059Z","network":"IIT(BHU)","battery":"29","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T11:35:04.533Z - {"timestamp":"2025-03-18T11:35:04.008Z","network":"IIT(BHU)","battery":"25","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T11:38:24.583Z - {"timestamp":"2025-03-18T11:38:24.046Z","network":"IIT(BHU)","battery":"21","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T11:41:44.603Z - {"timestamp":"2025-03-18T11:41:44.040Z","network":"IIT(BHU)","battery":"18","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T11:45:04.603Z - {"timestamp":"2025-03-18T11:45:04.085Z","network":"IIT(BHU)","battery":"14","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T11:48:24.584Z - {"timestamp":"2025-03-18T11:48:24.088Z","network":"IIT(BHU)","battery":"11","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T11:51:44.621Z - {"timestamp":"2025-03-18T11:51:44.074Z","network":"IIT(BHU)","battery":"8","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T11:55:05.129Z - {"timestamp":"2025-03-18T11:55:04.389Z","network":"IIT(BHU)","battery":"10","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T11:58:24.478Z - {"timestamp":"2025-03-18T11:58:24.017Z","network":"IIT(BHU)","battery":"17","state":"Synced!","authenticatedConnections":8,"pendingConnections":24}
+2025-03-18T12:01:44.548Z - {"timestamp":"2025-03-18T12:01:44.034Z","network":"IIT(BHU)","battery":"25","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T12:05:04.509Z - {"timestamp":"2025-03-18T12:05:04.045Z","network":"IIT(BHU)","battery":"32","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T12:08:24.620Z - {"timestamp":"2025-03-18T12:08:24.170Z","network":"IIT(BHU)","battery":"39","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T12:11:44.511Z - {"timestamp":"2025-03-18T12:11:44.054Z","network":"IIT(BHU)","battery":"45","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T12:15:04.585Z - {"timestamp":"2025-03-18T12:15:04.084Z","network":"IIT(BHU)","battery":"50","state":"Synced!","authenticatedConnections":8,"pendingConnections":40}
+2025-03-18T12:18:24.555Z - {"timestamp":"2025-03-18T12:18:24.083Z","network":"IIT(BHU)","battery":"56","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T12:21:44.524Z - {"timestamp":"2025-03-18T12:21:44.070Z","network":"IIT(BHU)","battery":"60","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T12:25:04.752Z - {"timestamp":"2025-03-18T12:25:04.287Z","network":"IIT(BHU)","battery":"64","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T12:28:24.580Z - {"timestamp":"2025-03-18T12:28:24.112Z","network":"IIT(BHU)","battery":"68","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T12:31:44.577Z - {"timestamp":"2025-03-18T12:31:44.101Z","network":"IIT(BHU)","battery":"71","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T12:35:04.581Z - {"timestamp":"2025-03-18T12:35:04.099Z","network":"IIT(BHU)","battery":"74","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T12:38:24.466Z - {"timestamp":"2025-03-18T12:38:24.112Z","network":"IIT(BHU)","battery":"77","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T12:41:44.567Z - {"timestamp":"2025-03-18T12:41:44.109Z","network":"IIT(BHU)","battery":"80","state":"Synced!","authenticatedConnections":8,"pendingConnections":16}
+2025-03-18T12:45:04.563Z - {"timestamp":"2025-03-18T12:45:04.110Z","network":"IIT(BHU)","battery":"82","state":"Synced!","authenticatedConnections":8,"pendingConnections":20}
+2025-03-18T12:48:24.437Z - {"timestamp":"2025-03-18T12:48:24.111Z","network":"IIT(BHU)","battery":"84","state":"Synced!","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T12:51:44.583Z - {"timestamp":"2025-03-18T12:51:44.123Z","network":"IIT(BHU)","battery":"86","state":"Synced!","authenticatedConnections":8,"pendingConnections":19}
+2025-03-18T12:55:04.807Z - {"timestamp":"2025-03-18T12:55:04.346Z","network":"IIT(BHU)","battery":"88","state":"Synced!","authenticatedConnections":8,"pendingConnections":36}
+2025-03-18T12:58:24.552Z - {"timestamp":"2025-03-18T12:58:24.215Z","network":"IIT(BHU)","battery":"89","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T13:01:44.675Z - {"timestamp":"2025-03-18T13:01:44.213Z","network":"IIT(BHU)","battery":"91","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T13:05:04.619Z - {"timestamp":"2025-03-18T13:05:04.168Z","network":"IIT(BHU)","battery":"92","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T13:08:24.508Z - {"timestamp":"2025-03-18T13:08:24.176Z","network":"IIT(BHU)","battery":"93","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T13:11:44.631Z - {"timestamp":"2025-03-18T13:11:44.180Z","network":"IIT(BHU)","battery":"94","state":"Synced!","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T13:15:04.644Z - {"timestamp":"2025-03-18T13:15:04.196Z","network":"IIT(BHU)","battery":"95","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T13:18:24.543Z - {"timestamp":"2025-03-18T13:18:24.190Z","network":"IIT(BHU)","battery":"96","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T13:21:44.707Z - {"timestamp":"2025-03-18T13:21:44.253Z","network":"IIT(BHU)","battery":"97","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T13:25:04.781Z - {"timestamp":"2025-03-18T13:25:04.258Z","network":"IIT(BHU)","battery":"98","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T13:28:24.566Z - {"timestamp":"2025-03-18T13:28:24.200Z","network":"IIT(BHU)","battery":"98","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T13:31:44.685Z - {"timestamp":"2025-03-18T13:31:44.212Z","network":"IIT(BHU)","battery":"99","state":"Synced!","authenticatedConnections":8,"pendingConnections":24}
+2025-03-18T13:35:04.690Z - {"timestamp":"2025-03-18T13:35:04.237Z","network":"IIT(BHU)","battery":"99","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T13:38:24.557Z - {"timestamp":"2025-03-18T13:38:24.229Z","network":"IIT(BHU)","battery":"99","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T13:41:44.730Z - {"timestamp":"2025-03-18T13:41:44.240Z","network":"IIT(BHU)","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T13:45:04.691Z - {"timestamp":"2025-03-18T13:45:04.237Z","network":"IIT(BHU)","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T13:48:24.595Z - {"timestamp":"2025-03-18T13:48:24.260Z","network":"IIT(BHU)","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":51}
+2025-03-18T13:51:44.711Z - {"timestamp":"2025-03-18T13:51:44.259Z","network":"IIT(BHU)","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":37}
+2025-03-18T13:55:04.746Z - {"timestamp":"2025-03-18T13:55:04.279Z","network":"IIT(BHU)","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T13:58:24.610Z - {"timestamp":"2025-03-18T13:58:24.275Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Waiting for trigger ledger: 2651195/2651201, ETA: 30s"],"authenticatedConnections":8,"pendingConnections":34}//manually re-connect to iitbhu
+2025-03-18T14:01:44.751Z - {"timestamp":"2025-03-18T14:01:44.292Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651199: Downloading state file history/00/28/74/history-0028743f.json for ledger 2651199"],"authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T14:05:04.717Z - {"timestamp":"2025-03-18T14:05:04.264Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651199: Downloading state file history/00/28/74/history-0028743f.json for ledger 2651199"],"authenticatedConnections":8,"pendingConnections":51}
+2025-03-18T14:08:24.627Z - {"timestamp":"2025-03-18T14:08:24.283Z","network":"IIT(BHU)","battery":"100","state":"Joining SCP","status":["Catching up to ledger 2651199: Downloading state file history/00/28/74/history-0028743f.json for ledger 2651199"],"authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T14:11:44.760Z - {"timestamp":"2025-03-18T14:11:44.299Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651327: Downloading state file history/00/28/74/history-002874bf.json for ledger 2651327"],"authenticatedConnections":8,"pendingConnections":39}
+2025-03-18T14:15:04.773Z - {"timestamp":"2025-03-18T14:15:04.303Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651327: Downloading state file history/00/28/74/history-002874bf.json for ledger 2651327"],"authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T14:18:24.659Z - {"timestamp":"2025-03-18T14:18:24.303Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651327: Downloading state file history/00/28/74/history-002874bf.json for ledger 2651327"],"authenticatedConnections":8,"pendingConnections":38}
+2025-03-18T14:21:44.786Z - {"timestamp":"2025-03-18T14:21:44.300Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651327: Downloading state file history/00/28/74/history-002874bf.json for ledger 2651327"],"authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T14:25:04.787Z - {"timestamp":"2025-03-18T14:25:04.327Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651455: Downloading state file history/00/28/75/history-0028753f.json for ledger 2651455"],"authenticatedConnections":8,"pendingConnections":37}
+2025-03-18T14:28:24.715Z - {"timestamp":"2025-03-18T14:28:24.352Z","network":"IIT(BHU)","battery":"100","state":"Catching up","status":["Catching up to ledger 2651455: Downloading state file history/00/28/75/history-0028753f.json for ledger 2651455"],"authenticatedConnections":8,"pendingConnections":44}
+2025-03-18T14:31:44.777Z - {"timestamp":"2025-03-18T14:31:44.316Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","status":["Catching up to ledger 2651455: Downloading state file history/00/28/75/history-0028753f.json for ledger 2651455"],"authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T14:35:04.795Z - {"timestamp":"2025-03-18T14:35:04.344Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","status":["Catching up to ledger 2651455: Downloading state file history/00/28/75/history-0028753f.json for ledger 2651455"],"authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T14:41:44.984Z - {"timestamp":"2025-03-18T14:41:44.422Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T14:45:04.964Z - {"timestamp":"2025-03-18T14:45:04.413Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T14:48:24.864Z - {"timestamp":"2025-03-18T14:48:24.443Z","network":"NARZO 70x 5G","battery":"94","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T14:51:44.904Z - {"timestamp":"2025-03-18T14:51:44.430Z","network":"NARZO 70x 5G","battery":"92","state":"Synced!","authenticatedConnections":8,"pendingConnections":45}
+2025-03-18T14:55:04.975Z - {"timestamp":"2025-03-18T14:55:04.453Z","network":"NARZO 70x 5G","battery":"91","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T14:58:24.878Z - {"timestamp":"2025-03-18T14:58:24.443Z","network":"NARZO 70x 5G","battery":"90","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T15:01:44.906Z - {"timestamp":"2025-03-18T15:01:44.406Z","network":"NARZO 70x 5G","battery":"88","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:05:04.936Z - {"timestamp":"2025-03-18T15:05:04.455Z","network":"NARZO 70x 5G","battery":"87","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T15:08:24.930Z - {"timestamp":"2025-03-18T15:08:24.498Z","network":"NARZO 70x 5G","battery":"85","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:11:45.135Z - {"timestamp":"2025-03-18T15:11:44.527Z","network":"NARZO 70x 5G","battery":"84","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:15:04.932Z - {"timestamp":"2025-03-18T15:15:04.438Z","network":"NARZO 70x 5G","battery":"83","state":"Synced!","authenticatedConnections":8,"pendingConnections":52}
+2025-03-18T15:18:24.971Z - {"timestamp":"2025-03-18T15:18:24.516Z","network":"NARZO 70x 5G","battery":"81","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T15:21:45.101Z - {"timestamp":"2025-03-18T15:21:44.504Z","network":"NARZO 70x 5G","battery":"80","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:25:05.035Z - {"timestamp":"2025-03-18T15:25:04.555Z","network":"NARZO 70x 5G","battery":"78","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:28:25.118Z - {"timestamp":"2025-03-18T15:28:24.558Z","network":"NARZO 70x 5G","battery":"77","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:31:45.099Z - {"timestamp":"2025-03-18T15:31:44.521Z","network":"NARZO 70x 5G","battery":"75","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T15:35:05.109Z - {"timestamp":"2025-03-18T15:35:04.539Z","network":"NARZO 70x 5G","battery":"74","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T15:38:25.076Z - {"timestamp":"2025-03-18T15:38:24.533Z","network":"NARZO 70x 5G","battery":"72","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T15:41:44.960Z - {"timestamp":"2025-03-18T15:41:44.553Z","network":"NARZO 70x 5G","battery":"71","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":41}
+2025-03-18T15:45:05.045Z - {"timestamp":"2025-03-18T15:45:04.541Z","network":"NARZO 70x 5G","battery":"69","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T15:48:25.096Z - {"timestamp":"2025-03-18T15:48:24.539Z","network":"NARZO 70x 5G","battery":"68","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T15:51:45.012Z - {"timestamp":"2025-03-18T15:51:44.530Z","network":"NARZO 70x 5G","battery":"67","state":"Synced!","authenticatedConnections":8,"pendingConnections":48}
+2025-03-18T15:55:05.031Z - {"timestamp":"2025-03-18T15:55:04.549Z","network":"NARZO 70x 5G","battery":"65","state":"Catching up","status":["Waiting for trigger ledger: 2652470/2652481, ETA: 55s"],"authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T15:58:25.255Z - {"timestamp":"2025-03-18T15:58:24.698Z","network":"NARZO 70x 5G","battery":"64","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T16:01:45.383Z - {"timestamp":"2025-03-18T16:01:44.818Z","network":"NARZO 70x 5G","battery":"62","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T16:05:05.560Z - {"timestamp":"2025-03-18T16:05:04.995Z","network":"NARZO 70x 5G","battery":"61","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T16:08:25.191Z - {"timestamp":"2025-03-18T16:08:24.586Z","network":"NARZO 70x 5G","battery":"59","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":21}
+2025-03-18T16:11:45.169Z - {"timestamp":"2025-03-18T16:11:44.623Z","network":"NARZO 70x 5G","battery":"58","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T16:15:05.109Z - {"timestamp":"2025-03-18T16:15:04.603Z","network":"NARZO 70x 5G","battery":"56","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T16:18:25.060Z - {"timestamp":"2025-03-18T16:18:24.585Z","network":"NARZO 70x 5G","battery":"55","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T16:21:45.188Z - {"timestamp":"2025-03-18T16:21:44.657Z","network":"NARZO 70x 5G","battery":"53","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T16:25:05.174Z - {"timestamp":"2025-03-18T16:25:04.613Z","network":"NARZO 70x 5G","battery":"52","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T16:28:25.250Z - {"timestamp":"2025-03-18T16:28:24.733Z","network":"NARZO 70x 5G","battery":"50","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T16:31:45.369Z - {"timestamp":"2025-03-18T16:31:44.819Z","network":"NARZO 70x 5G","battery":"49","state":"Synced!","authenticatedConnections":8,"pendingConnections":47}
+2025-03-18T16:35:05.232Z - {"timestamp":"2025-03-18T16:35:04.678Z","network":"NARZO 70x 5G","battery":"47","state":"Synced!","authenticatedConnections":8,"pendingConnections":47}
+2025-03-18T16:38:25.336Z - {"timestamp":"2025-03-18T16:38:24.742Z","network":"NARZO 70x 5G","battery":"46","state":"Synced!","authenticatedConnections":8,"pendingConnections":42}
+2025-03-18T16:41:45.063Z - {"timestamp":"2025-03-18T16:41:44.605Z","network":"IIT(BHU)","battery":"47","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T16:45:05.088Z - {"timestamp":"2025-03-18T16:45:04.632Z","network":"IIT(BHU)","battery":"53","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T16:48:25.327Z - {"timestamp":"2025-03-18T16:48:24.880Z","network":"IIT(BHU)","battery":"58","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T16:51:45.092Z - {"timestamp":"2025-03-18T16:51:44.627Z","network":"IIT(BHU)","battery":"63","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T16:55:05.138Z - {"timestamp":"2025-03-18T16:55:04.659Z","network":"IIT(BHU)","battery":"67","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T16:58:25.131Z - {"timestamp":"2025-03-18T16:58:24.666Z","network":"IIT(BHU)","battery":"70","state":"Synced!","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T17:01:45.145Z - {"timestamp":"2025-03-18T17:01:44.656Z","network":"IIT(BHU)","battery":"74","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T17:05:05.137Z - {"timestamp":"2025-03-18T17:05:04.678Z","network":"IIT(BHU)","battery":"77","state":"Synced!","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T17:08:25.210Z - {"timestamp":"2025-03-18T17:08:24.762Z","network":"IIT(BHU)","battery":"79","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T17:11:45.126Z - {"timestamp":"2025-03-18T17:11:44.676Z","network":"IIT(BHU)","battery":"81","state":"Synced!","authenticatedConnections":8,"pendingConnections":38}
+2025-03-18T17:15:05.133Z - {"timestamp":"2025-03-18T17:15:04.680Z","network":"IIT(BHU)","battery":"84","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":46}
+2025-03-18T17:18:25.153Z - {"timestamp":"2025-03-18T17:18:24.681Z","network":"IIT(BHU)","battery":"85","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T17:21:45.156Z - {"timestamp":"2025-03-18T17:21:44.670Z","network":"IIT(BHU)","battery":"87","state":"Synced!","authenticatedConnections":8,"pendingConnections":48}
+2025-03-18T17:25:05.211Z - {"timestamp":"2025-03-18T17:25:04.691Z","network":"IIT(BHU)","battery":"89","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":49}
+2025-03-18T17:28:25.209Z - {"timestamp":"2025-03-18T17:28:24.704Z","network":"IIT(BHU)","battery":"90","state":"Synced!","authenticatedConnections":8,"pendingConnections":38}
+2025-03-18T17:31:45.146Z - {"timestamp":"2025-03-18T17:31:44.691Z","network":"IIT(BHU)","battery":"91","state":"Synced!","authenticatedConnections":8,"pendingConnections":35}
+2025-03-18T17:35:05.211Z - {"timestamp":"2025-03-18T17:35:04.736Z","network":"IIT(BHU)","battery":"93","state":"Synced!","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T17:38:25.185Z - {"timestamp":"2025-03-18T17:38:24.719Z","network":"IIT(BHU)","battery":"94","state":"Synced!","authenticatedConnections":8,"pendingConnections":21}
+2025-03-18T17:41:45.162Z - {"timestamp":"2025-03-18T17:41:44.713Z","network":"IIT(BHU)","battery":"95","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T17:45:05.207Z - {"timestamp":"2025-03-18T17:45:04.738Z","network":"IIT(BHU)","battery":"96","state":"Synced!","authenticatedConnections":8,"pendingConnections":21}
+2025-03-18T17:48:25.212Z - {"timestamp":"2025-03-18T17:48:24.730Z","network":"IIT(BHU)","battery":"96","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":17}
+2025-03-18T17:49:19.206Z - {"timestamp":"2025-03-18T17:49:18.743Z","network":"IIT(BHU)","battery":"97","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T18:56:14.284Z - {"timestamp":"2025-03-18T18:56:13.730Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T18:56:14.301Z - {"date":"19/3/2025, 12:26:13 am","message":"🚨 Pi Node is not syncing try changing network restarting docker..."}
+2025-03-18T18:59:35.137Z - {"timestamp":"2025-03-18T18:59:34.643Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T18:59:35.138Z - {"date":"19/3/2025, 12:29:34 am","message":"🚨 Pi Node is not syncing try changing network restarting docker..."}
+2025-03-18T19:02:55.382Z - {"timestamp":"2025-03-18T19:02:54.894Z","network":"NARZO 70x 5G","battery":"93","state":"Joining SCP","status":["Waiting for trigger ledger: 2654503/2654529, ETA: 130s"],"authenticatedConnections":6,"pendingConnections":56}
+2025-03-18T19:06:15.135Z - {"timestamp":"2025-03-18T19:06:14.656Z","network":"NARZO 70x 5G","battery":"92","state":"Joining SCP","status":["Waiting for trigger ledger: 2654545/2654593, ETA: 240s"],"authenticatedConnections":2,"pendingConnections":56}
+2025-03-18T19:09:35.156Z - {"timestamp":"2025-03-18T19:09:34.647Z","network":"NARZO 70x 5G","battery":"91","state":"Catching up","status":["Waiting for trigger ledger: 2654592/2654593, ETA: 5s"],"authenticatedConnections":7,"pendingConnections":56}
+2025-03-18T19:12:55.130Z - {"timestamp":"2025-03-18T19:12:54.627Z","network":"NARZO 70x 5G","battery":"89","state":"Catching up","status":["Catching up to ledger 2654591: Download & apply checkpoints: num checkpoints left to apply:1 (0% done)"],"authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T19:16:15.124Z - {"timestamp":"2025-03-18T19:16:14.660Z","network":"NARZO 70x 5G","battery":"88","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:19:35.158Z - {"timestamp":"2025-03-18T19:19:34.678Z","network":"NARZO 70x 5G","battery":"87","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:22:55.116Z - {"timestamp":"2025-03-18T19:22:54.662Z","network":"NARZO 70x 5G","battery":"86","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:26:15.118Z - {"timestamp":"2025-03-18T19:26:14.652Z","network":"NARZO 70x 5G","battery":"85","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:29:35.236Z - {"timestamp":"2025-03-18T19:29:34.677Z","network":"NARZO 70x 5G","battery":"83","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:31:33.280Z - {"timestamp":"2025-03-18T19:31:32.845Z","network":"NARZO 70x 5G","battery":"81","state":"Joining SCP","status":["Waiting for trigger ledger: 2654642/2654657, ETA: 75s"],"authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:31:33.282Z - {"date":"19/3/2025, 1:01:32 am","message":"🚨 Pi Node is not syncing try changing network restarting docker..."}
+2025-03-18T19:34:54.186Z - {"timestamp":"2025-03-18T19:34:53.675Z","network":"NARZO 70x 5G","battery":"79","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":0}
+2025-03-18T19:34:54.187Z - {"date":"19/3/2025, 1:04:53 am","message":"🚨 Pi Node is not syncing try changing network restarting docker..."}
+2025-03-18T19:38:04.500Z - {"timestamp":"2025-03-18T19:38:04.068Z","network":"NARZO 70x 5G","battery":"78","state":"Joining SCP","status":["Waiting for trigger ledger: 2654897/2654913, ETA: 80s"],"authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T19:41:25.061Z - {"timestamp":"2025-03-18T19:41:24.729Z","network":"NARZO 70x 5G","battery":"79","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-18T19:44:45.067Z - {"timestamp":"2025-03-18T19:44:44.746Z","network":"NARZO 70x 5G","battery":"82","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T19:48:05.061Z - {"timestamp":"2025-03-18T19:48:04.737Z","network":"NARZO 70x 5G","battery":"84","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T19:51:25.092Z - {"timestamp":"2025-03-18T19:51:24.760Z","network":"NARZO 70x 5G","battery":"86","state":"Synced!","authenticatedConnections":7,"pendingConnections":27}
+2025-03-18T19:54:45.075Z - {"timestamp":"2025-03-18T19:54:44.756Z","network":"NARZO 70x 5G","battery":"88","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T19:58:05.134Z - {"timestamp":"2025-03-18T19:58:04.806Z","network":"NARZO 70x 5G","battery":"90","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-18T20:01:25.109Z - {"timestamp":"2025-03-18T20:01:24.779Z","network":"NARZO 70x 5G","battery":"91","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T20:04:45.096Z - {"timestamp":"2025-03-18T20:04:44.776Z","network":"NARZO 70x 5G","battery":"93","state":"Synced!","authenticatedConnections":8,"pendingConnections":42}
+2025-03-18T20:08:05.142Z - {"timestamp":"2025-03-18T20:08:04.814Z","network":"NARZO 70x 5G","battery":"94","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":23}
+2025-03-18T20:11:25.152Z - {"timestamp":"2025-03-18T20:11:24.812Z","network":"NARZO 70x 5G","battery":"95","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T20:14:45.122Z - {"timestamp":"2025-03-18T20:14:44.806Z","network":"NARZO 70x 5G","battery":"96","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T20:18:05.145Z - {"timestamp":"2025-03-18T20:18:04.819Z","network":"NARZO 70x 5G","battery":"97","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T20:21:25.150Z - {"timestamp":"2025-03-18T20:21:24.826Z","network":"NARZO 70x 5G","battery":"97","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T20:24:45.181Z - {"timestamp":"2025-03-18T20:24:44.857Z","network":"NARZO 70x 5G","battery":"98","state":"Synced!","authenticatedConnections":8,"pendingConnections":35}
+2025-03-18T20:28:05.187Z - {"timestamp":"2025-03-18T20:28:04.864Z","network":"NARZO 70x 5G","battery":"99","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T20:31:25.184Z - {"timestamp":"2025-03-18T20:31:24.857Z","network":"NARZO 70x 5G","battery":"99","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T20:34:45.189Z - {"timestamp":"2025-03-18T20:34:44.866Z","network":"NARZO 70x 5G","battery":"99","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T20:38:05.277Z - {"timestamp":"2025-03-18T20:38:04.955Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T20:41:25.212Z - {"timestamp":"2025-03-18T20:41:24.884Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T20:44:45.211Z - {"timestamp":"2025-03-18T20:44:44.887Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T20:48:05.404Z - {"timestamp":"2025-03-18T20:48:05.084Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T20:51:25.225Z - {"timestamp":"2025-03-18T20:51:24.900Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T20:54:45.257Z - {"timestamp":"2025-03-18T20:54:44.918Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T20:58:05.268Z - {"timestamp":"2025-03-18T20:58:04.950Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:01:25.276Z - {"timestamp":"2025-03-18T21:01:24.957Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T21:04:45.268Z - {"timestamp":"2025-03-18T21:04:44.949Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:08:05.283Z - {"timestamp":"2025-03-18T21:08:04.963Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T21:11:25.300Z - {"timestamp":"2025-03-18T21:11:24.974Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:14:45.298Z - {"timestamp":"2025-03-18T21:14:44.975Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T21:18:05.323Z - {"timestamp":"2025-03-18T21:18:04.998Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:21:25.332Z - {"timestamp":"2025-03-18T21:21:25.006Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T21:24:45.344Z - {"timestamp":"2025-03-18T21:24:45.021Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T21:28:05.336Z - {"timestamp":"2025-03-18T21:28:05.017Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:31:25.345Z - {"timestamp":"2025-03-18T21:31:25.029Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":27}
+2025-03-18T21:34:45.374Z - {"timestamp":"2025-03-18T21:34:45.052Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T21:38:05.371Z - {"timestamp":"2025-03-18T21:38:05.045Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":50}
+2025-03-18T21:41:25.371Z - {"timestamp":"2025-03-18T21:41:25.048Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T21:44:45.382Z - {"timestamp":"2025-03-18T21:44:45.054Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:48:05.403Z - {"timestamp":"2025-03-18T21:48:05.075Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":33}
+2025-03-18T21:51:25.399Z - {"timestamp":"2025-03-18T21:51:25.079Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T21:54:45.396Z - {"timestamp":"2025-03-18T21:54:45.077Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":22}
+2025-03-18T21:58:05.417Z - {"timestamp":"2025-03-18T21:58:05.095Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T22:01:25.492Z - {"timestamp":"2025-03-18T22:01:25.166Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T22:04:45.446Z - {"timestamp":"2025-03-18T22:04:45.116Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T22:08:05.442Z - {"timestamp":"2025-03-18T22:08:05.119Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T22:11:25.440Z - {"timestamp":"2025-03-18T22:11:25.122Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T22:14:45.447Z - {"timestamp":"2025-03-18T22:14:45.133Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":51}
+2025-03-18T22:18:05.455Z - {"timestamp":"2025-03-18T22:18:05.135Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":31}
+2025-03-18T22:21:25.474Z - {"timestamp":"2025-03-18T22:21:25.143Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T22:24:45.492Z - {"timestamp":"2025-03-18T22:24:45.168Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":33}
+2025-03-18T22:28:05.476Z - {"timestamp":"2025-03-18T22:28:05.154Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T22:31:25.510Z - {"timestamp":"2025-03-18T22:31:25.182Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T22:34:45.511Z - {"timestamp":"2025-03-18T22:34:45.190Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T22:38:05.504Z - {"timestamp":"2025-03-18T22:38:05.184Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":20}
+2025-03-18T22:41:25.506Z - {"timestamp":"2025-03-18T22:41:25.190Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":49}
+2025-03-18T22:44:45.547Z - {"timestamp":"2025-03-18T22:44:45.215Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":33}
+2025-03-18T22:48:05.532Z - {"timestamp":"2025-03-18T22:48:05.209Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T22:51:25.548Z - {"timestamp":"2025-03-18T22:51:25.227Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-18T22:54:45.552Z - {"timestamp":"2025-03-18T22:54:45.219Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T22:58:05.543Z - {"timestamp":"2025-03-18T22:58:05.222Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":41}
+2025-03-18T23:01:25.572Z - {"timestamp":"2025-03-18T23:01:25.250Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T23:04:45.568Z - {"timestamp":"2025-03-18T23:04:45.245Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T23:08:05.583Z - {"timestamp":"2025-03-18T23:08:05.259Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T23:11:25.603Z - {"timestamp":"2025-03-18T23:11:25.274Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":29}
+2025-03-18T23:14:45.627Z - {"timestamp":"2025-03-18T23:14:45.298Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":53}
+2025-03-18T23:18:05.611Z - {"timestamp":"2025-03-18T23:18:05.284Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":24}
+2025-03-18T23:21:25.610Z - {"timestamp":"2025-03-18T23:21:25.289Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T23:24:45.613Z - {"timestamp":"2025-03-18T23:24:45.291Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-18T23:28:05.628Z - {"timestamp":"2025-03-18T23:28:05.310Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":54}
+2025-03-18T23:31:25.622Z - {"timestamp":"2025-03-18T23:31:25.301Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T23:34:45.877Z - {"timestamp":"2025-03-18T23:34:45.392Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-18T23:38:05.930Z - {"timestamp":"2025-03-18T23:38:05.446Z","network":"NARZO 70x 5G","battery":"100","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T23:41:25.935Z - {"timestamp":"2025-03-18T23:41:25.448Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T23:44:46.004Z - {"timestamp":"2025-03-18T23:44:45.493Z","network":"NARZO 70x 5G","battery":"100","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-18T23:48:05.997Z - {"timestamp":"2025-03-18T23:48:05.438Z","network":"NARZO 70x 5G","battery":"93","state":"Synced!","authenticatedConnections":8,"pendingConnections":32}
+2025-03-18T23:51:25.939Z - {"timestamp":"2025-03-18T23:51:25.456Z","network":"NARZO 70x 5G","battery":"92","state":"Synced!","authenticatedConnections":8,"pendingConnections":35}
+2025-03-18T23:54:46.146Z - {"timestamp":"2025-03-18T23:54:45.668Z","network":"NARZO 70x 5G","battery":"90","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-18T23:58:05.983Z - {"timestamp":"2025-03-18T23:58:05.469Z","network":"NARZO 70x 5G","battery":"89","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T00:01:25.944Z - {"timestamp":"2025-03-19T00:01:25.474Z","network":"NARZO 70x 5G","battery":"88","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-19T00:04:45.954Z - {"timestamp":"2025-03-19T00:04:45.487Z","network":"NARZO 70x 5G","battery":"86","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":47}
+2025-03-19T00:08:05.980Z - {"timestamp":"2025-03-19T00:08:05.501Z","network":"NARZO 70x 5G","battery":"85","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-19T00:11:26.229Z - {"timestamp":"2025-03-19T00:11:25.753Z","network":"NARZO 70x 5G","battery":"84","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T00:14:45.974Z - {"timestamp":"2025-03-19T00:14:45.507Z","network":"NARZO 70x 5G","battery":"82","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-19T00:18:05.998Z - {"timestamp":"2025-03-19T00:18:05.527Z","network":"NARZO 70x 5G","battery":"81","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":55}
+2025-03-19T00:21:25.998Z - {"timestamp":"2025-03-19T00:21:25.540Z","network":"NARZO 70x 5G","battery":"80","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":30}
+2025-03-19T00:24:46.022Z - {"timestamp":"2025-03-19T00:24:45.540Z","network":"NARZO 70x 5G","battery":"78","state":"Synced!","authenticatedConnections":8,"pendingConnections":30}
+2025-03-19T00:28:06.027Z - {"timestamp":"2025-03-19T00:28:05.549Z","network":"NARZO 70x 5G","battery":"77","state":"Synced!","authenticatedConnections":8,"pendingConnections":26}
+2025-03-19T00:31:26.049Z - {"timestamp":"2025-03-19T00:31:25.558Z","network":"NARZO 70x 5G","battery":"76","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T00:34:46.315Z - {"timestamp":"2025-03-19T00:34:45.748Z","network":"NARZO 70x 5G","battery":"74","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":52}
+2025-03-19T00:38:06.099Z - {"timestamp":"2025-03-19T00:38:05.596Z","network":"NARZO 70x 5G","battery":"73","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T00:41:26.065Z - {"timestamp":"2025-03-19T00:41:25.572Z","network":"NARZO 70x 5G","battery":"71","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T00:44:46.043Z - {"timestamp":"2025-03-19T00:44:45.576Z","network":"NARZO 70x 5G","battery":"70","state":"Synced!","authenticatedConnections":8,"pendingConnections":25}
+2025-03-19T00:48:05.970Z - {"timestamp":"2025-03-19T00:48:05.579Z","network":"NARZO 70x 5G","battery":"69","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-19T00:51:26.106Z - {"timestamp":"2025-03-19T00:51:25.642Z","network":"NARZO 70x 5G","battery":"67","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-19T00:54:46.065Z - {"timestamp":"2025-03-19T00:54:45.584Z","network":"NARZO 70x 5G","battery":"66","state":"Synced!","authenticatedConnections":8,"pendingConnections":55}
+2025-03-19T00:58:06.023Z - {"timestamp":"2025-03-19T00:58:05.646Z","network":"NARZO 70x 5G","battery":"65","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T01:01:26.097Z - {"timestamp":"2025-03-19T01:01:25.625Z","network":"NARZO 70x 5G","battery":"63","state":"Synced!","authenticatedConnections":8,"pendingConnections":24}
+2025-03-19T01:04:46.044Z - {"timestamp":"2025-03-19T01:04:45.611Z","network":"NARZO 70x 5G","battery":"62","state":"Synced!","authenticatedConnections":8,"pendingConnections":28}
+2025-03-19T01:05:14.162Z - {"timestamp":"2025-03-19T01:05:13.713Z","network":"NARZO 70x 5G","battery":"61","state":"Synced!","authenticatedConnections":8,"pendingConnections":34}
+2025-03-19T01:08:35.081Z - {"timestamp":"2025-03-19T01:08:34.566Z","network":"NARZO 70x 5G","battery":"59","state":"Synced!","authenticatedConnections":8,"pendingConnections":54}
+2025-03-19T01:11:54.956Z - {"timestamp":"2025-03-19T01:11:54.532Z","network":"NARZO 70x 5G","battery":"58","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T01:15:14.998Z - {"timestamp":"2025-03-19T01:15:14.525Z","network":"NARZO 70x 5G","battery":"55","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":52}
+2025-03-19T01:18:34.881Z - {"timestamp":"2025-03-19T01:18:34.535Z","network":"NARZO 70x 5G","battery":"52","state":"Synced!","authenticatedConnections":8,"pendingConnections":35}
+2025-03-19T01:21:55.258Z - {"timestamp":"2025-03-19T01:21:54.785Z","network":"NARZO 70x 5G","battery":"49","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T01:25:15.056Z - {"timestamp":"2025-03-19T01:25:14.548Z","network":"NARZO 70x 5G","battery":"46","state":"Synced!","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T02:33:00.355Z - {"timestamp":"2025-03-19T02:32:59.966Z","network":"NARZO 70x 5G","battery":"95","state":"Joining SCP","authenticatedConnections":0,"pendingConnections":3}
+2025-03-19T02:36:20.983Z - {"timestamp":"2025-03-19T02:36:20.588Z","network":"NARZO 70x 5G","battery":"96","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":56}
+2025-03-19T02:36:40.318Z - {"timestamp":"2025-03-19T02:36:39.961Z","network":"NARZO 70x 5G","battery":"96","state":"Joining SCP","authenticatedConnections":8,"pendingConnections":51}
